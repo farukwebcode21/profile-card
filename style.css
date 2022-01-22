@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --color-Dark-cyan: hsl(185, 75%, 39%);
+    --color-Dark-blue: hsl(229, 23%, 23%);
+    --color-Dark-grayish-blue: hsl(227, 10%, 46%);
+    --color-Dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--color-Dark-cyan);
+    /* background-image: url("/images/bg-pattern-top.svg"); */
+}
+
+.container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.card {
+    max-width: 350px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bg-pattern {
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.card-prfile {
+    margin-top: -55px;
+}
+
+.card-prfile img {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.name-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-Dark-blue);
+}
+
+.number {
+    font-weight: 400;
+    margin-left: 10px;
+    color: var(--color-Dark-grayish-blue);
+}
+
+p {
+    color: var(--color-Dark-grayish-blue);
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.col h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: var(--color-Dark-blue);
+}
+
+.social-followr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border-top: 0.1em solid #e7e7e7;
+    padding: 8px 50px 22px 50px;
+}
+
+.attribution {
+    margin-top: 50px;
+}
+
+.allbody {
+    background-image: url("/images/bg-pattern-top.svg"),
+        url("/images/bg-pattern-bottom.svg");
+    background-position: right 48vw bottom 50vh, left 50vw top 50vh;
+    background-repeat: no-repeat, no-repeat;
+}
